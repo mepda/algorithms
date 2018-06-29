@@ -11,3 +11,4 @@
 
 2.  The rest operator (...) makes the arguments an array. So, if you're passing in something like [12,43,22,56,72]
     you could write a function to handle that as `function(...numbers: number){`and so on. This also makes the arguement an array so we can easily apply functions like slice, map, etc to it.
+3.  repeat() is really helpful to repeat strings. "blah".concat("value", "blah") will result in "blahvalueblah". arr.unshift("blah") adds "blah" to the beginning of an array. arr.push("blah) adds blah to the end of the array.
