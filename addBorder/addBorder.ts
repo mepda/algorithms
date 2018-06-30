@@ -18,5 +18,14 @@ function addBorder(picture: string[]): string[] {
   return final;
 }
 
+
+function wallIt(picture: string[]): string[] {
+  let result = [];
+  [...picture].forEach((a)=>{result.push(`*${a}*`)})
+  result.push("*".repeat(picture[0].length+2));
+  result.unshift("*".repeat(picture[0].length+2));
+  return result;
+}
+
 console.log(addBorder(['abc', 'def']));
-console.log(addBorder(['abc', 'def', 'hij']));
+console.log(wallIt(['abc', 'def', 'hij']));
