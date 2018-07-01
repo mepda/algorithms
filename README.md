@@ -14,3 +14,5 @@
 3.  repeat() is really helpful to repeat strings. "blah".concat("value", "blah") will result in "blahvalueblah". arr.unshift("blah") adds "blah" to the beginning of an array. arr.push("blah) adds blah to the end of the array.
 
 4.  `reduce(acc, curr => { })` takes a function with two values, the accumulator and the current. Seems like if you want to sum some array of values this is a fast way to do it.
+
+5)  Nothing really to note, just a loop through an array to figure out the larger product of adjacent numbers;
